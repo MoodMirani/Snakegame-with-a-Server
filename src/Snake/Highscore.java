@@ -41,7 +41,8 @@ public class Highscore implements Comparable<Highscore>{
     }
     
     static void saveScore(Highscore newScore) {
-        File file = new File("C:\\Users\\Mahmo\\Documents\\KODA\\Projekt\\src\\Snake\\Highscores.txt");
+        String directoryPath = System.getProperty("user.dir");
+        File file = new File(directoryPath + "\\src\\Snake\\Highscores.txt");
         FileWriter fr;
         try {
             fr = new FileWriter(file);
