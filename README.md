@@ -1,6 +1,6 @@
 # SnakeServer
 
-** Instructions:**
+**Instructions:**
 
 **step one:** Run server4713.java \
 **step two:** Run client.java \
