@@ -1,4 +1,4 @@
-# SnakeServer
+# Snakegame with a Server
 
 **Instructions:**
 
